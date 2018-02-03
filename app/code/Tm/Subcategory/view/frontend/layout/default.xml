@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/pa
+ge_configuration.xsd">
+    <body>
+		<referenceContainer name="main">
+			<block class="Magento\Catalog\Block\Category\View" name="subcat" template="Tm_Subcategory::category/sub.phtml" before="-" />
+				<!--<block class="Ulmod\CategoryViewMode\Block\ViewMode"
+				name="ulmod.categoryviewmode.home.page.before"
+				template="Ulmod_CategoryViewMode::view_mode.phtml" 
+				before="-" 
+				ifconfig="ulmod_categoryviewmode/home_page/show_before_content" />-->
+		</referenceContainer>
+    </body>
+</page>
